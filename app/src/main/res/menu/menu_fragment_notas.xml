@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="etelg.etim3e.tcc.tcc.NotasFragment">
+
+    <item
+        android:id="@+id/action_recarregar"
+        android:orderInCategory="100"
+        android:title="Recarregar"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_carregar_json"
+        android:orderInCategory="100"
+        android:title="Carregar JSON"
+        app:showAsAction="never" />
+
+
+</menu>

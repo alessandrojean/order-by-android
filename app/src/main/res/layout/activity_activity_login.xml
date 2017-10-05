@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:theme="@style/Theme.MyTheme.Login"
+    android:background="@color/colorPrimary"
+    tools:context=".ActivityLogin"
+    android:focusableInTouchMode="true">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tb_login"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentLeft="true"
+        android:background="?attr/colorPrimary"
+        android:elevation="0dp"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.ActionBar"  />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="24dp"
+        android:paddingTop="24dp"
+        android:paddingRight="24dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <ImageView android:src="@drawable/logo_android"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center_horizontal" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/txtrm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:hint="RM" />
+        </android.support.design.widget.TextInputLayout>
+
+        <CheckBox
+            android:id="@+id/checkBox_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtrm"
+            android:layout_alignStart="@+id/txtrm"
+            android:layout_below="@+id/txtrm"
+            android:focusable="true"
+            android:clickable="true"
+            android:text="Lembrar" />
+
+        <Button
+            android:id="@+id/btlogar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/txtrm"
+            android:layout_alignRight="@+id/txtrm"
+            android:layout_below="@+id/checkBox_login"
+            android:layout_marginTop="12dp"
+            android:padding="12dp"
+            android:text="Logar"/>
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

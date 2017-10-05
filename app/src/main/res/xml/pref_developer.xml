@@ -1,0 +1,66 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:theme="@style/Theme.MyTheme">
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="api_personalizada"
+        android:title="Usar API personalizada" />
+
+    <com.afollestad.materialdialogs.prefs.MaterialEditTextPreference
+        android:defaultValue="http://192.168.0.102:8080/tcc/api/aluno/aluno.php?rm=$rm"
+        android:dependency="api_personalizada"
+        android:dialogMessage="Endereço da API - Aluno"
+        android:dialogTitle="API - Aluno"
+        android:key="api_aluno"
+        android:persistent="true"
+        android:title="Endereço da API - Aluno" />
+
+
+    <com.afollestad.materialdialogs.prefs.MaterialEditTextPreference
+        android:defaultValue="http://192.168.0.102:8080/tcc/api/nota/nota.php?rm=$rm&amp;bimestre=$bim"
+        android:dependency="api_personalizada"
+        android:dialogMessage="Endereço da API - Nota"
+        android:dialogTitle="API - Nota"
+        android:key="api_nota"
+        android:persistent="true"
+        android:title="Endereço da API - Nota" />
+
+    <com.afollestad.materialdialogs.prefs.MaterialEditTextPreference
+        android:defaultValue="http://192.168.0.102:8080/tcc/api/falta/falta.php?rm=$rm&amp;mes=$mes"
+        android:dependency="api_personalizada"
+        android:dialogMessage="Endereço da API - Falta"
+        android:dialogTitle="API - Falta"
+        android:key="api_falta"
+        android:persistent="true"
+        android:title="Endereço da API - Falta" />
+
+    <com.afollestad.materialdialogs.prefs.MaterialEditTextPreference
+    android:defaultValue="http://192.168.0.102:8080/tcc/api/horario/horario.php?turma=$turma&amp;dia=$dia"
+    android:dependency="api_personalizada"
+    android:dialogMessage="Endereço da API - Horário"
+    android:dialogTitle="API - Horário"
+    android:key="api_horario"
+    android:persistent="true"
+    android:title="Endereço da API - Horário" />
+
+    <com.afollestad.materialdialogs.prefs.MaterialEditTextPreference
+        android:defaultValue="http://192.168.0.102:8080/tcc/api/noticias/noticias.php"
+        android:dependency="api_personalizada"
+        android:dialogMessage="Endereço da API - Notícias"
+        android:dialogTitle="API - Notícias"
+        android:key="api_noticias"
+        android:persistent="true"
+        android:title="Endereço da API - Notícias" />
+
+    <com.afollestad.materialdialogs.prefs.MaterialEditTextPreference
+        android:defaultValue="http://192.168.0.102:8080/tcc/api/thumbnail/thumbnail.php?tipo=$tipo&amp;id=$id"
+        android:dependency="api_personalizada"
+        android:dialogMessage="Endereço da API - Thumbnail"
+        android:dialogTitle="API - Thumbnail"
+        android:key="api_thumbnail"
+        android:persistent="true"
+        android:title="Endereço da API - Thumbnail" />
+
+
+</PreferenceScreen>

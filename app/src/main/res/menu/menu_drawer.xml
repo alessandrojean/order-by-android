@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_noticias"
+            android:checked="false"
+            android:icon="@drawable/ic_newspaper_black_18dp"
+            android:title="Notícias" />
+
+        <item
+            android:id="@+id/menu_boletim"
+            android:checked="false"
+            android:icon="@drawable/ic_book_black_18dp"
+            android:title="Boletim" />
+
+        <item
+            android:id="@+id/menu_faltas"
+            android:checked="false"
+            android:icon="@drawable/ic_clipboard_check_black_18dp"
+            android:title="Faltas" />
+
+        <item
+            android:id="@+id/menu_horario"
+            android:checked="false"
+            android:icon="@drawable/ic_clock_black_18dp"
+            android:title="Horário" />
+
+    </group>
+</menu>

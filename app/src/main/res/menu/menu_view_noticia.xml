@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="etelg.etim3e.tcc.tcc.ViewNoticia">
+    <item android:id="@+id/action_share" android:title="Compartilhar"
+        android:orderInCategory="100" app:showAsAction="always"  android:icon="@drawable/abc_ic_menu_share_mtrl_alpha"/>
+</menu>

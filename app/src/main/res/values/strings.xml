@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Order By</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_activity_principal">ActivityPrincipal</string>
+    <string name="title_activity_activity_preferences">ActivityPreferences</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="key_rm">rm</string>
+    <string name="key_nome">nome</string>
+    <string name="key_background">background</string>
+    <string name="key_foto">foto</string>
+    <string name="open">Aberto</string>
+    <string name="close">Fechado</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_view_noticia">ViewNoticia</string>
+    <string name="title_activity_settings">Settings</string>
+
+</resources>

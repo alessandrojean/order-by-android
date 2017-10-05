@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Tema principal do aplicativo -->
+    <style name="Theme.MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- colorPrimary é a principal cor, utilizada na Toolbar -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+
+        <!-- colorPrimaryDark é a cor secundária, usada na Status Bar -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <item name="actionModeStyle">@style/CustomActionMode</item>
+
+        <!-- colorAccent é a cor utilizada em outros elementos de destaque -->
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+        <item name="android:textColorPrimary">@color/primaryText</item>
+        <item name="windowActionModeOverlay">true</item>
+
+    </style>
+
+    <style name="Theme.MyTheme.Login" parent="Theme.AppCompat.NoActionBar">
+        <!-- colorPrimary é a principal cor, utilizada na Toolbar -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+
+        <!-- colorPrimaryDark é a cor secundária, usada na Status Bar -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <item name="actionModeStyle">@style/CustomActionMode</item>
+
+        <!-- colorAccent é a cor utilizada em outros elementos de destaque -->
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+        <item name="windowActionModeOverlay">true</item>
+
+        <item name="colorControlNormal">@color/iron</item>
+        <item name="colorControlActivated">@android:color/white</item>
+        <!--<item name="colorControlHighlight">@android:color/white</item>-->
+        <item name="android:textColorHint">@color/iron</item>
+
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="android:colorButtonNormal">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="Tab" parent="Base.ThemeOverlay.AppCompat.Light">
+        <item name="android:actionBarTabTextStyle">@style/tabcolor</item>
+    </style>
+
+    <style name="tabcolor" parent="Base.ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+
+    <style name="CustomActionMode" parent="@style/Widget.AppCompat.ActionMode">
+        <item name="background">@color/colorPrimary</item>
+    </style>
+
+</resources>

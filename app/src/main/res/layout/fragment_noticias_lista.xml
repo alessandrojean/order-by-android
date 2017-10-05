@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pb_noticia"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize"
+    tools:context="etelg.etim3e.tcc.tcc.NoticiasLista">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/srl_noticias"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_noticias"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:visibility="gone" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <ProgressBar
+        android:id="@+id/pb_noticia_indeterminate"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:indeterminate="true" />
+
+    <TextView
+        android:id="@+id/tv_erro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Nenhuma notícia cadastrada."
+        android:visibility="gone" />
+
+</RelativeLayout>
+
+
+
+

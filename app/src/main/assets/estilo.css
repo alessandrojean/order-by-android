@@ -1,0 +1,15 @@
+iframe
+{
+	width:325px !important;
+	height:255px !important;
+}
+img
+{	
+	width:100%;
+	height:auto;
+	margin-top:5px;
+}
+img:first-of-type
+{
+	margin-top:0;
+}
