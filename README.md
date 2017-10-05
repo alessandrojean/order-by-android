@@ -13,7 +13,7 @@ Import the project in Android Studio, compile and run.
 
 You may need to set your server IP in the settings of the app.
 
-For use it, you'll need first to install the software, and create an student, so you can login in the app.
+For use it, you'll need first to install the [software](https://github.com/alessandrojean/order-by-desktop), and create an student, so you can login in the app.
 
 ## Dependencies
 
