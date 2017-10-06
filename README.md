@@ -1,11 +1,19 @@
-# Order By (Android)
+<p align="center">
+<img src="https://i.imgur.com/oSlvwO6.png"><br/>
+<img src="https://img.shields.io/badge/presented-2015.11.25-green.svg"> <img src="https://img.shields.io/badge/grade-MB-blue.svg"> <img src="https://img.shields.io/badge/part-android-orange.svg">
+</p>
 
 Term paper for the Information Systems Technician course, finished and presented in November, 2015.
 
-The project consists in an administration software for a school, with the management done by a software, an website and an application.
+The project consists in an administration software for a school, with the management done by a [software](https://github.com/alessandrojean/order-by-desktop), an [website](https://github.com/alessandrojean/order-by-web) and an [application](https://github.com/alessandrojean/order-by-android).
 
-This repository contains:
-- The android project.
+## Features
+- Read all the news published by the [software](https://github.com/alessandrojean/order-by-desktop);
+- Access to the school timetable;
+- Visualization of grades and abcenses.
+
+## Contents
+- The Android Studio project.
 
 ## Instructions
 
